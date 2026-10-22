@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Support · Snore Fit</title>
 <meta name="description" content="Support for Snore Fit, guided exercises for everyday snoring.">
+
 <link rel="icon" type="image/png" href="/favicon.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <style>
@@ -33,6 +34,14 @@
   a { color:var(--accent); }
   .card { background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:20px 22px; margin:20px 0; }
   .card h2 { margin-top:0; }
+  table { width:100%; border-collapse:collapse; margin:16px 0; font-size:15px; }
+  th, td { text-align:start; vertical-align:top; padding:10px 12px; border-bottom:1px solid var(--border); }
+  th { color:var(--text); font-weight:600; }
+  td:first-child { color:var(--text); white-space:nowrap; }
+  @media (max-width:560px) { td:first-child { white-space:normal; } nav { gap:12px; font-size:13px; } }
+  .source { font-size:14px; color:var(--muted); margin-top:-4px; }
+  .langs { font-size:14px; color:var(--muted); margin:0 0 24px; }
+  .langs a { margin-inline-end:12px; }
   footer { border-top:1px solid var(--border); color:var(--muted); font-size:13px; padding:24px 0 40px; }
 </style>
 </head>
@@ -40,6 +49,8 @@
 <header><div class="wrap">
   <a class="brand" href="/"><img src="/mark.svg" alt="" width="34" height="28"><span>Snore<b>Fit</b></span></a>
   <nav>
+    <a href="/guide">Guide</a>
+    <a href="/evidence">Research</a>
     <a href="/support" aria-current="page">Support</a>
     <a href="/privacy">Privacy</a>
     <a href="/terms">Terms</a>
